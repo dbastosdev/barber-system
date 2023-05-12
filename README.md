@@ -4,7 +4,7 @@ Um sistema de agendamentos para barbeiros e profissionais de beleza.
 ## Stack
 - Laravel 10
 - Laradock
-- Postgres 14+ 
+- Mysql
 - Bootstrap 
 - Docker
 
