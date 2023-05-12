@@ -24,25 +24,25 @@ $ cd laradock
 
 No laradock: 
 
-COMPOSE_PROJECT_NAME=barber-app
-PHP_VERSION=8.2
-POSTGRES_VERSION=alpine
-POSTGRES_CLIENT_VERSION=15
-POSTGRES_DB=barber-db
-POSTGRES_USER=default
-POSTGRES_PASSWORD=secret
-POSTGRES_PORT=5432
-POSTGRES_ENTRYPOINT_INITDB=./postgres/docker-entrypoint-initdb.d
+- COMPOSE_PROJECT_NAME=barber-app
+- PHP_VERSION=8.2
+- POSTGRES_VERSION=alpine
+- POSTGRES_CLIENT_VERSION=15
+- POSTGRES_DB=barber-db
+- POSTGRES_USER=default
+- POSTGRES_PASSWORD=secret
+- POSTGRES_PORT=5432
+- POSTGRES_ENTRYPOINT_INITDB=./postgres/docker-entrypoint-initdb.d
 
 Na aplicação laravel: 
 
-APP_NAME=Barber-app
-DB_CONNECTION=pgsql
-DB_HOST=postgres
-DB_PORT=5432
-DB_DATABASE=barber-db
-DB_USERNAME=default
-DB_PASSWORD=secret
+- APP_NAME=Barber-app
+- DB_CONNECTION=pgsql
+- DB_HOST=postgres
+- DB_PORT=5432
+- DB_DATABASE=barber-db
+- DB_USERNAME=default
+- DB_PASSWORD=secret
 
 
 4- faça o build da aplicação
